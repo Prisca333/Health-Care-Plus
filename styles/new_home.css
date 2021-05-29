@@ -86,7 +86,42 @@ body {
 
 /*  TIME LINE */
 
+/*INFOGRAPHICS*/
 
+
+.thumbnails img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px #cf404d;
+    ;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
 
 /* 
   ::-webkit-scrollbar {
